@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'nunito-regular' ;
+    src: url('./static/Nunito-Regular.ttf');
+}
+@font-face {
+    font-family: 'nunito-bold' ;
+    src: url('./static/Nunito-Bold.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'nunito-regular', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background: rgb(243, 188, 9);
+}
+.nav-top{
+    width: 1025px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo-const{
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'nunito-bold';
+}
+.logo-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icons-call{
+    font-size: 1.8rem;
+}
+.logo-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.logo-h4{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.logo-heure{
+    font-weight: 300;
+    font-size: .9rem;
+}
+.nav-bottom{
+    width: 1025px;
+    margin: 0 auto;
+    background: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bottom-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navlink{
+    color: #fff;
+    font-size: .8rem;
+}
+.nav-bottom-right{
+    border: 1px solid #fff;
+    padding: 10px 15px;
+}
+.downloard{
+    color: #fff;
+    font-size: .9rem;
+}
+.slider{
+    background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.753)), url('./assets/constru.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-rows{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.slider-h2{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 200;
+}
+.slider-h1{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'nunito-bold';
+    color: #fff;
+}
+.btn-slider{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+}
