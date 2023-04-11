@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'nunito-regular' ;
+    font-family: 'nunito-regular';
     src: url('./static/Nunito-Regular.ttf');
 }
 @font-face {
-    font-family: 'nunito-bold' ;
+    font-family: 'nunito-bold';
     src: url('./static/Nunito-Bold.ttf');
 }
 
@@ -13,6 +13,7 @@
     box-sizing: border-box;
     font-family: 'nunito-regular', sans-serif;
 }
+
 a{
     text-decoration: none;
 }
@@ -88,7 +89,7 @@ nav{
     background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.753)), url('./assets/constru.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,7 +106,7 @@ nav{
     font-weight: 200;
 }
 .slider-h1{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
     font-family: 'nunito-bold';
     color: #fff;
@@ -113,5 +114,104 @@ nav{
 .btn-slider{
     color: #fff;
     border: 2px solid #fff;
+    padding: 10px 15px;
+}
+
+.projet{
+    max-width: 1025px;
+    margin: 0 auto;
+}
+.projet-container{
+    width: 100%;
+    display: flex;
+    
+}
+.projet-row{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding: 40px;
+    background: black;
+
+}
+.icon-perso{
+    font-size: 3rem;
+}
+.sous-row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.projet{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: left;
+    color: rgb(243, 188, 9);
+}
+.projet-desc{
+    text-align: left;
+    font-size: .886rem;
+    color: rgb(243, 188, 9);
+}
+.projet-row:nth-child(2){
+    background: rgb(243, 188, 9);
+    color: black;
+}
+.black{
+    color :black;
+}
+.experience{
+    max-width: 1025px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.experience-container{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+.experience-top{
+    flex: 1;
+    width: 100%;
+}
+.experience-img{
+    width: 100%;
+}
+.experience-bottom{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.experience-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.experience-h3{
+    font-size: .986rem;
+}
+.experience-h1{
+    font-size: 2.1rem;
+    font-family: 'nunito-bold';
+}
+.experience-center{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.experience-desc{
+    font-size: .986rem;
+    text-align: justify;
+}
+.experience-btn{
+    background: rgb(243, 188, 9);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: max-content;
     padding: 10px 15px;
 }
